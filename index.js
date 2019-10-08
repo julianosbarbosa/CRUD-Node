@@ -6,7 +6,7 @@ const server = express();
 // route params = /teste/1
 // request body = {"nome": "Juliano", "email": "julianodeveloper2018@gmail.com"}
 
-const users = ["Juliano", "Nicolas", "Lilia"];
+const users = ["Juliano", "Nicolas", "Bruna", "Lilia"];
 
 server.get("/users/:index", (req, res) => {
   const { index } = req.params;
